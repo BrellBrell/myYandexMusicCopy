@@ -10,7 +10,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/album.css">
     <link rel="stylesheet" href="css/header.css">
-    <script src="css/index.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/album.js" defer></script>
 </head>
 
 <body>
@@ -63,62 +64,14 @@
         <div class="row mt-5 row-cols-1 row-cols-md-2">
             <div class="col p-2">
                 <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="assets/1.jpg" alt="albom_music" class="img-fluid rounded-start">
-                        </div>
-                        <div class="col-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Интернет в космосе</h5>
-                                <p class="card-text">описание</p>
-                                <p class="card-text"><small class="text-muted">Сборник выпущен в 2023 году</small></p>
-                            </div>
-                        </div>
+                    <div class="row" id="outAlbum">
+                        <!-- JavaScript -->
                     </div>
                 </div>
             </div>
             <div class="col p-3">
-                <ol class="list-group">
-                    <li class="list-group-item align-items-center d-flex">
-                        <img src="assets/play.png" alt="playIcon" class="me-3" height="30px">
-                        <div>
-                            <div>Название</div>
-                            <div class="text-secondary">Моцарт</div>
-                        </div>
-                        <div class="ms-auto">6:07</div>
-                    </li>
-                    <li class="list-group-item align-items-center d-flex">
-                        <img src="assets/playing.png" alt="playIcon" class="me-3" height="30px">
-                        <div>
-                            <div>Название</div>
-                            <div class="text-secondary">Моцарт</div>
-                        </div>
-                        <div class="ms-auto">6:07</div>
-                    </li>
-                    <li class="list-group-item align-items-center d-flex">
-                        <img src="assets/play.png" alt="playIcon" class="me-3" height="30px">
-                        <div>
-                            <div>Название</div>
-                            <div class="text-secondary">Моцарт</div>
-                        </div>
-                        <div class="ms-auto">6:07</div>
-                    </li>
-                    <li class="list-group-item align-items-center d-flex">
-                        <img src="assets/play.png" alt="playIcon" class="me-3" height="30px">
-                        <div>
-                            <div>Название</div>
-                            <div class="text-secondary">Моцарт</div>
-                        </div>
-                        <div class="ms-auto">6:07</div>
-                    </li>
-                    <li class="list-group-item align-items-center d-flex">
-                        <img src="assets/play.png" alt="playIcon" class="me-3" height="30px">
-                        <div>
-                            <div>Название</div>
-                            <div class="text-secondary">Моцарт</div>
-                        </div>
-                        <div class="ms-auto">6:07</div>
-                    </li>
+                <ol class="list-group" id="outTrack">
+                    <!-- JavaScript -->
                 </ol>
             </div>
         </div>
