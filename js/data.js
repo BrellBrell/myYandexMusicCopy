@@ -8,27 +8,32 @@ let almoms = [
             {
                 name: `Интернет`,
                 autor: `Я`,
-                time: `3:20`
+                time: `3:20`,
+                src: "music/AllGoodInTheWood.mp3"
             },
             {
                 name: `Космос`,
                 autor: `Я`,
-                time: `1:30`
+                time: `1:30`,
+                src: "music/AcousticMeditation2.mp3"
             },
             {
                 name: `Сеть`,
                 autor: `Пётр`,
-                time: `6:20`
+                time: `6:20`,
+                src: "music/MegatonDrop.mp3"
             },
             {
                 name: `Интернен и Космос`,
                 autor: `Я + Он`,
-                time: `2:20`
+                time: `2:20`,
+                src: "music/PhaseShifter.mp3"
             },
             {
                 name: `Космичечкий WiFi`,
                 autor: `Я`,
-                time: `3:10`
+                time: `3:10`,
+                src: "music/TechTalk.mp3"
             }
         ]
     },
