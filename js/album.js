@@ -32,7 +32,7 @@ for (let k = 0; k < almoms[i].tracks.length; k++) {
                         <div class="text-secondary">${almoms[i].tracks[k].autor}</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar" role="progressbar"></div>
                     </div>
                     <div class="ms-auto" id="timer">${almoms[i].tracks[k].time}</div>
                     <audio class="audio" src="${almoms[i].tracks[k].src}"></audio>
@@ -60,7 +60,7 @@ function UpdateControl() {
             let currentSeconds = Math.floor(audio.currentTime);
             let minutes = Math.floor(currentSeconds / 60);
             let seconds = currentSeconds % 60;
-            progressBar.style.width = audio.currentTime * 100 / audio.duration + `%`;
+            progressBar.style.width = audio.currentTime * 250 / audio.duration + `px`;
 
             if (minutes < 10) {
                 minutes = `0` + minutes;
